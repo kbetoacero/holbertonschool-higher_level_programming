@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-#print alphabet in lowercase
-for letter in range(97, 123):
+
+for letter in range(97, 123): # prints alfabet in lowercase
     print("{}".format(chr(letter)), end="")
