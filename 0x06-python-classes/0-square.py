@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script for Empty class Square that dows nothing but a square """
+"""Script for Empty class Square that does nothing but a square """
 
 
 class Square:
