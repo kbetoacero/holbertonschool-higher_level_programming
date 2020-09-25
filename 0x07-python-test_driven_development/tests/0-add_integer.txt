@@ -24,6 +24,17 @@ Now use it:
     >>> add_integer(100.3, -2)
     98
 
+    >>> add_integer(23.5)
+    121
+
+    >>> add_integer(4.2, 4.5)
+    8
+
+    >>> add_integer(float('-inf'))
+    Traceback (most recent call last):
+        ...
+    OverflowError: cannot convert float infinity to integer
+
     >>> add_integer()
     Traceback (most recent call last):
     TypeError: add_integer() missing 1 required positional argument: 'a'
