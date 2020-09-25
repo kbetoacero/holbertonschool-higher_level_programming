@@ -4,8 +4,12 @@
 
 def add_integer(a, b=98):
 
-    """ adds two integers a and b """
-
+    """ adds two integers a and b
+    >>> add_integer(2, 98)
+    100
+    >>> add_integer(-2, 98)
+    96
+    """
     if type(a) not in [int, float]:
         raise TypeError("a must be an integer")
     elif type(a) is float:
