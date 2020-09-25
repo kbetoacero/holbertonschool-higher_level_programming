@@ -2,6 +2,7 @@
 
 """ function to add 2 integers """
 
+
 def add_integer(a, b=98):
 
     """ adds two integers a and b
@@ -21,7 +22,7 @@ def add_integer(a, b=98):
 
     return a + b
 
+
 if __name__ == "__main__":
     import doctest
     doctest.testfile("tests/0-add_integer.txt")
-
