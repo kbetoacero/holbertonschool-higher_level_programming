@@ -1,4 +1,4 @@
-quare`` module
+square`` module
 ======================
 
 Using ``4-print_square``
