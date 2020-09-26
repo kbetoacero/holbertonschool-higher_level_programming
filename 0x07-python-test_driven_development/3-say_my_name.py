@@ -10,12 +10,12 @@ def say_my_name(first_name, last_name=""):
         last_name : the second name
     Returns:
         None
-    >>> say_my_name(2, "Carlos")
+    >>> say_my_name(2, "Acero")
     Traceback (most recent call last):
     ...
     TypeError: first_name must be a string
 
-    >>> say_my_name("Acero", 12)
+    >>> say_my_name("Carlos", 12)
     Traceback (most recent call last):
     ...
     TypeError: last_name must be a string
