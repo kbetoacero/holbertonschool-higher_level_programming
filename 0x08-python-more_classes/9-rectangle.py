@@ -87,11 +87,7 @@ class Rectangle:
         else:
             return rect_2
 
-
     @classmethod
     def square(cls, size=0):
         """Defining class method called square."""
-        width = size
-        height = size
-        squared = cls(width, height)
-        return squared
+        return cls(size, size)
