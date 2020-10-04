@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for letter in range (25, -1, -1):
-    print("{:s}".format(chr(letter + ord('a')) if letter % 2 else chr(letter + ord('A'))),
-        end="")
+for x in range(25, -1, -1):
+    print("{:s}".format(chr(x + ord('a')) if x % 2 else chr(x + ord('A'))),
+          end="")
