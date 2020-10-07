@@ -11,11 +11,11 @@ class Square(Rectangle):
     def __init__(self, size):
         """ instantiating square
         """
-        self.__size = size
+        self._size = size
         super().__init__(size, size)
 
     def __str__(self):
         """
         Overriding str function
         """
-        return "[Square] {}/{}".format(self.__size, self.__size)
+        return "[Square] {}/{}".format(self._size, self._size)
