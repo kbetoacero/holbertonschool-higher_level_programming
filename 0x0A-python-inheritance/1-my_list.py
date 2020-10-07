@@ -10,6 +10,4 @@ class MyList(list):
     def print_sorted(self):
         """ Print List of int
         ascending order """
-
-        self.list = self
         print(sorted(self))
