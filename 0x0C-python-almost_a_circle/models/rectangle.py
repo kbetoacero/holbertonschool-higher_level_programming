@@ -98,6 +98,6 @@ class Rectangle(Base):
         """ assings an argument to each attribute """
         keys = ["id", "width", "height", "x", "y"]
 
-        if args is not None and len(args) is not 0: 
+        if args is not None and len(args) is not 0:
             for i in range(len(args)):
                 setattr(self, keys[i], args[i])
