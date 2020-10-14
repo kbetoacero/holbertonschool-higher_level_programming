@@ -76,4 +76,3 @@ class Rectangle(Base):
         """ Returns the area value of the
         rectangle instance """
         return (self.width * self.height)
-
