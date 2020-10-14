@@ -4,7 +4,6 @@
 from models.rectangle import Rectangle
 
 
-
 class Square(Rectangle):
     """ Square Class the inherits for Rectangle """
 
