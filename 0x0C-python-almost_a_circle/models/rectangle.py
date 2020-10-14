@@ -13,10 +13,10 @@ class Rectangle(Base):
         """ Instantiation of Rectangle class
         with private intance attributes """
 
-        Base.width = width
-        Base.height = height
-        Base.x = x
-        Base.y = y
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
         super().__init__(id)
 
     @property
@@ -24,29 +24,29 @@ class Rectangle(Base):
         return self.__width
 
     @width.setter
-    def width(self, value):
-        self.__width = value
+    def width(self, width):
+        self.__width = width
 
     @property
     def height(self):
         return self.__height
 
     @height.setter
-    def height(self, value):
-        self.__height = value
+    def height(self, height):
+        self.__height = height
 
     @property
     def x(self):
         return self.__x
 
     @x.setter
-    def x(self, value):
-        self.__widht = value
+    def x(self, x):
+        self.__widht = x
 
     @property
     def y(self):
         return self.__y
 
     @y.setter
-    def y(self, value):
-        self.__y = value
+    def y(self, y):
+        self.__y = y
