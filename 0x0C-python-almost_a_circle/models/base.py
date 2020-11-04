@@ -46,3 +46,12 @@ class Base:
         j_string = Base.to_json_string(dict_list)
         with open(j_file, mode='w', encoding='utf-8') as a_file:
             a_file.write(j_string)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Returning a list from a json string representation"""""
+
+        if json_string is None or len(json_string) == 0:
+            return []
+        else:
+            return json.loads(json_string)
