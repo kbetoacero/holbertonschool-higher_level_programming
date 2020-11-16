@@ -1,6 +1,6 @@
 -- 9 Full creation
 
-CREATE TABLE IF NOT EXISTS second_table (
+CREATE TABLE IF NOT EXISTS second_table(
 		id INTEGER,
 		name VARCHAR(256),
 		score INTEGER
@@ -12,7 +12,7 @@ INSERT INTO second_table (
 ) 
 VALUES (
 		1,
-		"Jhon",
+		"John",
 		10
 ),
 	(
