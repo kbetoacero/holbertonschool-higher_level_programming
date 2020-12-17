@@ -10,7 +10,7 @@ Read or watch:
 ## Learning Objectives:bulb:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome
 * How to import functions from another file
 * How to use imported functions
 * How to create a module
@@ -42,6 +42,22 @@ What you should learn from this project:
 
 ### [5. Everything can be imported](./5-variable_load.py)
 * Write a program that imports the variable a from the file variable_load_5.py and prints its value.
+
+
+### [6. Build my own calculator!](./100-my_calculator.py)
+* Write a program that imports all functions from the file calculator_1.py and handles basic operations.
+
+
+### [7. Easy print](./101-easy_print.py)
+* Write a program that prints #pythoniscool, followed by a new line, in the standard output.
+
+
+### [8. ByteCode -> Python #3](./102-magic_calculation.py)
+* Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+
+
+### [9. Fast alphabet](./103-fast_alphabet.py)
+* Write a program that prints the alphabet in uppercase, followed by a new line.
 
 ---
 
