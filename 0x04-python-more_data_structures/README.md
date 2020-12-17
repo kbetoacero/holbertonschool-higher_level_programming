@@ -10,7 +10,7 @@ Read or watch:
 ## Learning Objectives:bulb:
 What you should learn from this project:
 
-* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* Why Python programming is awesome
 * What are set and how to use them
 * What are the most common methods of set and how to use them
 * When to use sets versus lists
@@ -20,7 +20,7 @@ What you should learn from this project:
 * What is a key in a dictionary
 * How to iterate into a dictionary
 * What is a lambda function
-* What is map, reduce and map functions
+* What is map, reduce and filter functions
 
 ---
 
