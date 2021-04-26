@@ -1,4 +1,4 @@
-#This folder contains practical exercise created in order to learning High level programming
+#This folder contains practical exercise created in order to learn High level programming- Python
 
 ##This project is useful because of learning by doing, It will give to me the tools and knowledge in order to work by a standarized method
 
