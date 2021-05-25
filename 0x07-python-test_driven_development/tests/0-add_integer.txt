@@ -1,0 +1,48 @@
+# The add_integer module
+===========================================
+
+
+Using add_integer
+----------------------
+
+
+The module supplies one function, add_integer.
+
+    >>> add_integer = __import__("0-add_integer").add_integer
+
+Now use it:
+
+    >>> add_integer(0, 2)
+    2
+
+    >>> add_integer(40, -2)
+    38
+
+    >>> add_integer(12)
+    110
+
+    >>> add_integer(50.3, -2)
+    48
+
+    >>> add_integer(63.7)
+    161
+
+    >>> add_integer(12.2, 12.5)
+    24
+
+    >>> add_integer(float('-inf'))
+    Traceback (most recent call last):
+        ...
+    OverflowError: cannot convert float infinity to integer
+
+    >>> add_integer()
+    Traceback (most recent call last):
+    TypeError: add_integer() missing 1 required positional argument: 'a'
+
+    >>> print(add_integer(4, "Holberton"))
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+
+    >>> print(add_integer(None))
+    Traceback (most recent call last):
+    TypeError: a must be an integer
