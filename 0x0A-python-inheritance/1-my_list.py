@@ -4,8 +4,9 @@
     from list
     """
 
+
 class MyList(list):
-    """ Public instance method: 
+    """ Public instance method:
     def print_sorted(self)
     """
     def print_sorted(self):
