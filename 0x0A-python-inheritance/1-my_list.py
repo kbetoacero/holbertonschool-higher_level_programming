@@ -13,7 +13,4 @@ class MyList(list):
         """
         prints the list but sorted
         """
-        sorted_list = MyList()
-        for i in self:
-            sorted_list.append(i)
-        print(sorted(sorted_list))
+        print(sorted(self))
