@@ -14,8 +14,6 @@ class BaseGeometry:
         name: always a string
         value: != a integer raise TypeError
         value: <= 0 raise ValueError"""
-        self.name = name
-        self. value = value
         if type(value) is not int:
             raise TypeError('{} must be an integer'.format(name))
         elif value <= 0:
