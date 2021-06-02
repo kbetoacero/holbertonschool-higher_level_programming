@@ -3,6 +3,10 @@
 
 
 class BaseGeometry:
+    """ Init class """
+    def __init__(self):
+        pass
+
     """ Public instance method def area(self)"""
     def area(self):
         """ raise an exception with message area()
