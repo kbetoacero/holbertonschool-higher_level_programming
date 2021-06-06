@@ -9,14 +9,14 @@ class Rectangle(Base):
     """Class rectangle that inherits from Base"""
     def __init__(self, width, height, x=0, y=0, id=None):
         super().__init__(id)
-        self.width = width
+        self.__width = width
         self.height = height
         self.__x = x
         self.y = y
 
     @property
     def width(self):
-        return self.__width
+        return self.width
 
     @width.setter
     def width(self, value):
@@ -24,7 +24,7 @@ class Rectangle(Base):
             raise TypeError("width must be an integer")
         if value <= 0:
             raise ValueError("width must > 0")
-        self.__width = value
+        self.width = value
 
     @property
     def height(self):
@@ -40,7 +40,7 @@ class Rectangle(Base):
 
     @property
     def x(self):
-        return self.__x
+        return self.x
 
     @x.setter
     def x(self, value):
@@ -48,7 +48,7 @@ class Rectangle(Base):
             raise TypeError("x must be an integer")
         if value < 0:
             raise ValueError("x must be >= 0")
-        self.__x = value
+        self.x = value
 
     @property
     def y(self):
