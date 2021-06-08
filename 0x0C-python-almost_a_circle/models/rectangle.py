@@ -73,7 +73,7 @@ class Rectangle(Base):
         for i in range(self.__y):
             print()
         for i in range(self.__height):
-            print(self.__height * " " + "#" * self.__width)
+            print(self.__x * " " + "#" * self.__width)
 
     def __str__(self):
         """ method that returns [Rectangle] (<id>)
