@@ -118,4 +118,3 @@ class Rectangle(Base):
         new_dictionary['x'] = self.x
         new_dictionary['y'] = self.y
         return new_dictionary
-
